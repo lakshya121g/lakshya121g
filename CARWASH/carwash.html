@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ShineUp Car Wash</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+  <a href="http://carwash.in">VISIT CARWASH.IN</a>
+    <div class="loading-screen">
+        <div class="car-wash">
+          <div class="car"></div>
+          <div class="water"></div>
+        </div>
+        <p>Washing Your Ride...</p>
+      </div>
+      <script>
+        window.onload = function() {
+          setTimeout(function() {
+            document.querySelector('.loading-screen').style.display = 'none';
+          }, 3500); // Hides after 3.5 seconds
+        };
+      </script>
+            
+    <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="book section.html">Book</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Welcome to ShineUp Car Wash 🚗✨</h1>
+      <p>Book your wash in seconds. Choose your service. Pick a date. Done.</p>
+      <a href="book section.html" class="btn">Book Now</a> <!-- Changed to link to new page -->
+    </div>
+  </div>
+</body>
+</html>
